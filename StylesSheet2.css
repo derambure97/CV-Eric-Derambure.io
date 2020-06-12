@@ -19,8 +19,11 @@ h2 {
 h4 {
     font-family: 'Poppins', sans-serif;
 }
+.poste{
+    font-family: 'Open Sans', sans-serif;
+}
 hr{
-    
+    margin-bottom: 5%;
     height: 3px;
     background-color: #8BC34A;
     border: none;
@@ -39,27 +42,40 @@ aside {
    
 }   
 img {
-    width:50%;
+    width: 61%;
     border-radius: 100%;
-    margin: 100px 0px 42px 84px
-    
+    margin: 20%;
+    border: 3px solid rgba(0, 0, 0, 0.2); ;
 }
-
+.skype{
+    margin-bottom: 20%;
+}
+.apros{
+    margin-bottom: 170%;
+    text-align: justify;
+}
 h3 {
  text-align: center;
+ 
+}
+aside h3{
+    padding: 2%;
 }
 .soussoustitre {
     background-color: #000000;
     color: #fff;
+    margin-bottom: 8%;
+    height: 2%;
 }
 .textecontact {
-    margin-left: 60px;
-    padding-right: 4%;
+    margin-left: 40px;
+    margin-right: 25px;
+   
 }
 
 .app {
-    margin-left: 60px;
-    padding-right: 4%;
+    margin-left: 40px;
+    margin-right: 25px;
     text-align: left;
 }
 
@@ -163,20 +179,22 @@ ul {
     
   }
 li{
+    align-items: flex-start;
     display: flex;
-    align-items: center;
+    margin-bottom: 3%;
 }
 .dates{  
+    align-items: baseline;
     display: flex;
-    align-items: center;
     margin-right: 0%;
 } 
 .textes{  
     flex-direction: row ;
     display: inline-block;
-    margin-left: 4em;  
+    margin-left: 5em;  
     
 }
+
 .graph1 {
     margin: 0px 0px 0px -15px;
 }
@@ -208,7 +226,7 @@ p {
 }
 .recomandations2{
     
-    margin: 8px 0 0 26px;
+    margin: 8px 0 0 137px;
 }
 
 .tric {
@@ -253,13 +271,21 @@ p {
         background-color: #8BC34A;
         width: 100%;
     }
-
-    img {
-        width:40%;
-        border-radius: 100%;
-        margin: 25%;
+    .apros{
+        margin-bottom: 50%;
+        text-align: justify;
     }
-
+    img {
+        width:61%;
+        border-radius: 100%;
+        margin: 16%;
+    }
+    .dates{
+        margin-bottom: 2%;
+    }
+    .textes{
+        margin-bottom: 8%;}
+        
     h3 {
     text-align: center;
     }
@@ -272,12 +298,12 @@ p {
         color: #fff;
     }
     .textecontact {
-        margin-left: 0;
+        margin-left: 8%;
         padding-right: 0;
     }
 
     .app {
-        margin-left: 0;
+        margin-left: 8%;
         padding-right: 0;
         text-align: left;
     }
@@ -374,7 +400,6 @@ p {
     }
     li{
         display: inline-block;
-        align-items: right;
     }
 
     .graph1 {
@@ -404,7 +429,7 @@ p {
         flex-direction:column; 
     }
     .recomandations1{
-        margin: 0px;
+        margin-bottom: 4%;
     }
 
     .recomandations2{
@@ -423,6 +448,9 @@ p {
         display: inline-block;
         margin-left: 0;  
         
+    }
+    .brnone{
+        display: none;
     }
 }
 
@@ -480,9 +508,9 @@ p {
        
     }   
     img {
-        width:50%;
+        width:61%;
         border-radius: 100%;
-        margin: 25%
+        margin: 17%;
         
     }
     
@@ -494,18 +522,18 @@ p {
         color: #fff;
     }
     .textecontact {
-        margin-left: 0;
+        margin-left: 8%;
         padding-right: 4%;
     }
     
     .app {
-        margin-left: 0px;
+        margin-left: 8%;
         padding-right: 4%;
         text-align: left;
     }
     
     .loisirs {
-        margin-left: 0px;
+        margin-left: 10%;
         padding-right: 4%;
     }
     .fa-book{
@@ -595,11 +623,11 @@ p {
       }
     li{
         display: flex;
-        align-items: center;
+        align-items: flex-start;
     }
     .dates{  
         display: flex;
-        align-items: center;
+        align-items: baseline;
         margin-right: 2%;
     } 
     .textes{  
@@ -607,7 +635,9 @@ p {
         display: inline-block;
         margin-left: 2%; 
         width:61%;
-        margin: 2%; 
+        margin-top: 0%; 
+        margin-left: 3%;
+        margin-bottom: 2%;
        
     } 
  
@@ -708,13 +738,13 @@ p {
     /* aside */
     aside { 
         background-color: #8BC34A;
-        width: 50%;;
+        width: 35%;
        
     }   
     img {
-        width:50%;
+        width:56%;
         border-radius: 100%;
-        margin: 25%
+        margin: 20%;
         
     }
     
@@ -726,18 +756,18 @@ p {
         color: #fff;
     }
     .textecontact {
-        margin-left: 0;
+        margin-left: 8%;
         padding-right: 4%;
     }
     
     .app {
-        margin-left: 0px;
+        margin-left: 8%;
         padding-right: 4%;
         text-align: left;
     }
     
     .loisirs {
-        margin-left: 0px;
+        margin-left: 25%;
         padding-right: 4%;
     }
     .fa-book{
@@ -826,20 +856,24 @@ p {
         
       }
     li{
+        align-items: flex-start ;
         display: flex;
-        align-items: center;
+        
     }
     .dates{  
         display: flex;
-        align-items: center;
+        align-items: baseline;
         margin-right: 2%;
     } 
     .textes{  
+        align-items: flex-start ;
         flex-direction: row ;
         display: inline-block;
         margin-left: 2%; 
         width:61%;
-        margin: 2%; 
+        margin-top: 0%; 
+        margin-left: 3%;
+        margin-bottom: 2%;
        
     } 
  
